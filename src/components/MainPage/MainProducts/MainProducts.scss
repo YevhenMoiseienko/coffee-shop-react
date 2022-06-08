@@ -1,0 +1,32 @@
+.brownBg {
+  background: url("../../Images/brownBg.png") no-repeat;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 80px 0 110px;
+}
+
+.proposition {
+  h2 {
+    color: #000000;
+  }
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  img {
+    margin: 20px auto;
+  }
+  p {
+    font-size: 14px;
+    text-align: right;
+  }
+  .product {
+    width: 220px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 10px;
+    padding: 0 15px;
+  }
+}
