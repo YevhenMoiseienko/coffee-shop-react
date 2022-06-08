@@ -1,0 +1,46 @@
+.light {
+  position: relative;
+  &::after, &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  &:before {
+    top: 30%;
+    left: 36%;
+  }
+  &:after {
+    top: 30%;
+    right: 36%;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.dark {
+  position: relative;
+  &::after, &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+  }
+  &:before {
+    top: 30%;
+    left: 36%;
+  }
+  &:after {
+    top: 30%;
+    right: 36%;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

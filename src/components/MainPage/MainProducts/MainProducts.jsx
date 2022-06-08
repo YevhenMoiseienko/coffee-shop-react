@@ -1,4 +1,4 @@
-import twoCoffee from "../../Images/twoCoffee.png";
+import twoCoffee from "../../../Images/twoCoffee.png";
 
 import './MainProducts.scss'
 

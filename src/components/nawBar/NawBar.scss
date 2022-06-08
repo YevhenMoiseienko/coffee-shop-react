@@ -1,0 +1,47 @@
+.white {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  padding: 45px 20px;
+  :first-child:before {
+    content:"";
+    display:inline-block;
+    position: absolute;
+    left: -17px;
+    top: 21px;
+    width: 40px;
+    height: 35px;
+    background-image:url('../../Images/WhiteGrains.png');
+  }
+  li {
+    cursor: pointer;
+    margin-right: 20px;
+    color: #fff;
+  }
+}
+
+.black {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  padding: 45px 20px;
+  :first-child:before {
+    content:"";
+    display:inline-block;
+    position: absolute;
+    left: 255px;
+    top: 21px;
+    width: 35px;
+    height: 35px;
+    background-image:url('../../Images/DarkGrain.png');
+  }
+  li {
+    cursor: pointer;
+    margin-right: 20px;
+    color: #000;
+  }
+}

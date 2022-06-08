@@ -1,7 +1,7 @@
-import {NawBar} from "../nawBar/NawBar";
-import {Divider} from "../divider/Divider";
-import whiteFullGrain from "../../Images/WhiteFullGrain.png";
-import {Button} from "../Button/Button";
+import {NawBar} from "../../nawBar/NawBar";
+import {Divider} from "../../divider/Divider";
+import whiteFullGrain from "../../../Images/WhiteFullGrain.png";
+import {Button} from "../../Button/Button";
 
 import './MainTopView.scss'
 
