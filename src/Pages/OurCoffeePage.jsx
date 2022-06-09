@@ -4,12 +4,12 @@ import {OurCoffeeSearch} from "../components/OurCoffeePage/OurCoffeeSearch/OurCo
 import {OurCoffeeCards} from "../components/OurCoffeePage/OurCoffeeCards/OurCoffeeCards";
 
 
-export const OurCoffeePage = ({data}) => {
+export const OurCoffeePage = ({data, findCards, filterCards}) => {
     return (
         <>
             <OurCoffeeTop/>
             <OurCoffeeBeans/>
-            <OurCoffeeSearch/>
+            <OurCoffeeSearch findCards={findCards} filterCards={filterCards} />
             <OurCoffeeCards data={data}/>
         </>
     )

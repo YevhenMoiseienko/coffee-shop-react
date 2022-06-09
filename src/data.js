@@ -15,7 +15,7 @@ export const dataArrow = [
     {
         id: uuidv4(),
         page: aramistico,
-        title: 'AROMISTICO Coffee 1 kg',
+        title: 'SOMILO Coffee 1 kg',
         country: 'Brazil',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam asperiores commodi' +
             ' dolores esse exercitationem itaque labore numquam odio quasi quibusdam quo quod sunt tempora, tempore ' +
@@ -35,8 +35,8 @@ export const dataArrow = [
     {
         id: uuidv4(),
         page: aramistico,
-        title: 'AROMISTICO Coffee 1 kg',
-        country: 'Mexico',
+        title: 'PESTO Coffee 1 kg',
+        country: 'Columbia',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam asperiores commodi' +
             ' dolores esse exercitationem itaque labore numquam odio quasi quibusdam quo quod sunt tempora, tempore ' +
             'vel velit veritatis voluptas.',
@@ -45,8 +45,8 @@ export const dataArrow = [
     {
         id: uuidv4(),
         page: aramistico,
-        title: 'AROMISTICO Coffee 1 kg',
-        country: 'Argentina',
+        title: 'PESTO Coffee 1 kg',
+        country: 'Columbia',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam asperiores commodi' +
             ' dolores esse exercitationem itaque labore numquam odio quasi quibusdam quo quod sunt tempora, tempore ' +
             'vel velit veritatis voluptas.',
