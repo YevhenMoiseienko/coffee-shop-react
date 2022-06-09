@@ -79,6 +79,10 @@ select {
   }
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
