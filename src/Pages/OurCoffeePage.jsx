@@ -4,13 +4,13 @@ import {OurCoffeeSearch} from "../components/OurCoffeePage/OurCoffeeSearch/OurCo
 import {OurCoffeeCards} from "../components/OurCoffeePage/OurCoffeeCards/OurCoffeeCards";
 
 
-export const OurCoffeePage = () => {
+export const OurCoffeePage = ({data}) => {
     return (
         <>
             <OurCoffeeTop/>
             <OurCoffeeBeans/>
             <OurCoffeeSearch/>
-            <OurCoffeeCards/>
+            <OurCoffeeCards data={data}/>
         </>
     )
 }

@@ -23,9 +23,9 @@ function App() {
     <Router>
         <Routes>
             <Route path='/' element={<MainPage />} />
-            <Route path='/coffee' element={<OurCoffeePage />}/>
-            <Route path='/pleasure' element={<OurPleasurePage />}/>
-            {/*<CoffeeDescriptionPage />*/}
+            <Route path='/coffee' element={<OurCoffeePage data={coffeeCards} />}/>
+            <Route path='/pleasure' element={<OurPleasurePage data={coffeeCards}/>}/>
+            <Route path='coffee/:coffeeId' element={<CoffeeDescriptionPage />} />
         </Routes>
         <MainFooter />
     </Router>

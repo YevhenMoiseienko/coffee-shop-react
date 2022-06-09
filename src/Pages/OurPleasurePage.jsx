@@ -3,12 +3,12 @@ import {ForPleasureDescr} from "../components/ForPleasure/ForPleasureDesrc/ForPl
 import {OurCoffeeCards} from "../components/OurCoffeePage/OurCoffeeCards/OurCoffeeCards";
 
 
-export const OurPleasurePage = () => {
+export const OurPleasurePage = ({data}) => {
     return (
         <>
             <ForPleasureTop />
             <ForPleasureDescr />
-            <OurCoffeeCards />
+            <OurCoffeeCards data={data} />
         </>
     )
 }
