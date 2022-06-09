@@ -44,3 +44,27 @@
     margin: 0 auto;
   }
 }
+.dark-short {
+  position: relative;
+  &::after, &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: #000000;
+  }
+  &:before {
+    top: 30%;
+    left: 30%;
+  }
+  &:after {
+    top: 30%;
+    right: 30%;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+

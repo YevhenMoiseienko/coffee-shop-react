@@ -15,7 +15,7 @@ export const MainTopView = () => {
                 <Divider picture={whiteFullGrain} them='light' />
                 <h2>We makes every day full of energy and taste</h2>
                 <h2>Want to try our beans?</h2>
-                <Button title='More' />
+                <Button title='More' theme='btn' />
             </div>
         </div>
     )

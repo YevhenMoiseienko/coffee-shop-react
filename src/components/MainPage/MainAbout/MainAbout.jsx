@@ -6,7 +6,7 @@ import './MainAbout.scss'
 
 export const MainAbout = () => {
     return (
-       <div style={{width: '1440px'}}>
+       <div style={{width: '1440px', margin: '0 auto'}}>
            <div className='about container'>
                <h2>About Us</h2>
                <Divider picture={darkFullGrain} them='dark'/>
