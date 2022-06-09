@@ -7,10 +7,10 @@ import {OurCoffeeCards} from "../components/OurCoffeePage/OurCoffeeCards/OurCoff
 export const OurCoffeePage = () => {
     return (
         <>
-            <OurCoffeeTop />
-            <OurCoffeeBeans />
-            <OurCoffeeSearch />
-            <OurCoffeeCards />
+            <OurCoffeeTop/>
+            <OurCoffeeBeans/>
+            <OurCoffeeSearch/>
+            <OurCoffeeCards/>
         </>
     )
 }

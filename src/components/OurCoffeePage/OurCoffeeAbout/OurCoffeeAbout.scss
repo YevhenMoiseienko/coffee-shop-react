@@ -1,0 +1,22 @@
+.aboutIt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 30px;
+  &-right {
+    width: 500px;
+  }
+  h2 {
+    color: #000;
+    padding-bottom: 20px;
+  }
+  p {
+    margin-top: 20px;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+.big {
+  font-size: 20px;
+}
