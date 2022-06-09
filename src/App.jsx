@@ -2,7 +2,7 @@ import {useState} from "react";
 import {
     BrowserRouter as Router,
     Routes,
-    Route
+    Route,
 } from "react-router-dom";
 
 import {MainPage} from "./Pages/MainPage";
@@ -33,9 +33,10 @@ function App() {
             <Route path='/coffee' element={<OurCoffeePage
                                                 data={coffeeCards}
                                                 findCards={findCards}
-                                                filterCards={filterCards} />}
+                                                filterCards={filterCards}
+                                                setCoffeeCards={setCoffeeCards}/>}
             />
-            <Route path='/pleasure' element={<OurPleasurePage data={coffeeCards}/>}/>
+            <Route path='/pleasure' element={<OurPleasurePage setCoffeeCards={setCoffeeCards} data={coffeeCards}/>}/>
             <Route path='coffee/:coffeeId' element={<CoffeeDescriptionPage />} />
         </Routes>
         <MainFooter />
